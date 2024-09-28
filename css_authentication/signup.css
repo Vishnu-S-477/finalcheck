@@ -1,0 +1,109 @@
+body{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+   margin:0;
+    box-sizing: border-box;
+    padding:10px 0px;
+}
+.main-container{
+    height:auto;
+    border:2px solid red;
+    padding:7px 15px 30px 15px;
+    box-sizing: border-box;
+    background-color:black;
+}
+.heading{
+    display:flex;
+    justify-content:center;
+    color:white;
+    margin-top:0px;
+}
+.fname,.lname,.mailid,.contactno,.date,.userid,.cpassword,.lpassword{
+    height:40px;
+    width:100%;
+    box-sizing: border-box;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family:arial;
+    font-size:17px;
+}
+.upload-field{
+    display:none;
+}
+.upload-button-container{
+    height:40px;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+.login-container{
+    width:45%;
+}
+.upload-button,.submit-button,.login-link{
+    font-family:arial;
+    font-size:18px;
+    height:100%;
+    width:100%;
+    border:none;
+    background-color:rgb(231, 8, 112);
+    color:white;
+    font-family:arial;
+    font-size:18px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+.submit-button,.login-link{
+    width:45%;
+    background-color:rgb(38, 158, 1);
+}
+.login-link{
+    background-color:blue;
+    width:100%;
+}
+.upload-button:hover{
+    background-color:rgb(38, 158, 1);
+}
+.submit-button:hover{
+    background-color:rgb(231, 8, 112) ;
+}
+.login-link:hover{
+    background-color:orange;
+}
+.response-button-container{
+    display:flex;
+    justify-content:space-between;
+    height:40px;
+    width:100%;
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+.span-style{
+    font-family:arial;
+    font-size:18px;
+    color:red;
+}
+
+@media only screen and (max-width: 749px){
+    .main-container{
+        width:92%;
+    }
+}
+@media only screen and (min-width:750px)  and (max-width: 950px){
+    .main-container{
+        width:38%;
+    }
+}
+@media only screen and (min-width:951px)  and (max-width: 1800px){
+    .main-container{
+        width:35%;
+    }
+}
+
+@media only screen and (min-width:1801px) and (max-width:3000px){
+    .main-container{
+        width:25%;
+    }
+}

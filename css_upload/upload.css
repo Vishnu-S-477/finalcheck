@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top:65px;
+}
+
+   /* css for start of header*/ 
+   .header-main-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height:62px;
+    width:100%;
+    background-color:black;
+    color:white;
+    font-family:arial,sans-serif;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+  } 
+  .logo-container{
+  display: flex;
+  align-items:center;
+  justify-content:start;
+  cursor:pointer;
+  }
+  .image-containersos{
+    height:60px;
+    width:60px;
+  }
+  .logo-img-stylesos{
+    height:100%;
+    width:100%;
+    background-color:transparent;
+  }
+  .text-container{
+    font-size:20px;
+  }
+  .filter-option{
+    height:auto;
+    font-size:20px;
+    cursor:pointer;
+  }
+  .option-container{
+    height:30px;
+    width:30px;
+    padding-right:10px;
+    position:relative;
+  }
+  .menu-icon-style{
+    height:100%;
+    width:100%;
+    background-color: transparent;
+  }
+  /* this is option container*/
+  .option-main-container{
+    height:auto;
+    width:130px;
+    border:1px solid black;
+    border-radius:4px;
+    padding:5px;
+    font-family:arial;
+    font-size:1rem;
+    background-color:rgb(236, 233, 233);
+    position:absolute;
+    color:black;
+    top:50px;
+    left:-105px;
+    display:none;
+  }
+
+  /* css end of header style*/
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.property-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.property-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.property-form label {
+    font-weight: 600;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.property-form input[type="text"],
+.property-form input[type="number"],
+.property-form input[type="file"],
+.property-form textarea,
+.property-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.property-form textarea {
+    resize: vertical;
+}
+
+.property-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.property-form button:hover {
+    background-color: #0056b3;
+}
+ 

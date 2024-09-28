@@ -1,0 +1,100 @@
+body{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    padding:0px 15px 15px 15px;
+    box-sizing: border-box;
+}
+.main-container{
+    height:auto;
+    border:2px solid red;
+    padding:7px 15px 30px 15px;
+    box-sizing: border-box;
+    background-color:black;
+}
+.heading{
+    display:flex;
+    justify-content:center;
+    color:white;
+    margin-top:0px;
+}
+.mailid,.password{
+    height:40px;
+    width:100%;
+    box-sizing: border-box;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family:arial;
+    font-size:17px;
+}
+
+
+
+.response-button-container{
+    display:flex;
+    justify-content:space-between;
+    height:40px;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.login-container{
+    width:45%;
+}
+.signup-link{
+    height:100%;
+    width:100%;
+    color:white;
+    background-color:green;
+    border:none;
+    font-family:arial;
+    font-size:18px;
+}
+.submit-button{
+    font-family:arial;
+    font-size:18px;
+    height:100%;
+    width:45%;
+    color:white;
+    background-color:rgb(235, 7, 132);
+    border:none;
+}
+.span-style{
+    font-family:arial;
+    font-size:18px;
+    color:red;
+}
+
+@media only screen and (max-width: 749px){
+    body{
+        padding-top:50px;
+    }
+    .main-container{
+        width:92%;
+    }
+}
+@media only screen and (min-width:750px)  and (max-width: 950px){
+    body{
+        padding-top:70px;
+    }
+    .main-container{
+        width:38%;
+    }
+}
+@media only screen and (min-width:951px)  and (max-width: 1800px){
+    body{
+        padding-top:100px;
+    }
+    .main-container{
+        width:35%;
+    }
+}
+@media only screen and (min-width:1801px) and (max-width:3000px){
+    body{
+        padding-top:120px;
+    }
+    .main-container{
+        width:25%;
+    }
+}

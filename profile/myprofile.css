@@ -1,0 +1,206 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:start;
+    padding-top:65px;
+    padding-bottom:35px;
+    background-color:black;
+}
+/* css for start of header*/ 
+.header-main-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height:62px;
+    width:100%;
+    background-color:black;
+    color:white;
+    font-family:arial,sans-serif;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+  } 
+  .logo-container{
+  display: flex;
+  align-items:center;
+  justify-content:start;
+  cursor:pointer;
+  }
+  .image-containersos{
+    height:60px;
+    width:60px;
+  }
+  .logo-img-stylesos{
+    height:100%;
+    width:100%;
+    background-color:transparent;
+  }
+  .text-container{
+    font-size:20px;
+  }
+  .filter-option{
+    height:auto;
+    font-size:20px;
+    cursor:pointer;
+  }
+  .option-container{
+    height:30px;
+    width:30px;
+    padding-right:10px;
+    position:relative;
+  }
+  .menu-icon-style{
+    height:100%;
+    width:100%;
+    background-color: transparent;
+  }
+  /* this is option container*/
+  .option-main-container{
+    height:auto;
+    width:130px;
+    border:1px solid black;
+    border-radius:4px;
+    padding:5px;
+    font-family:arial;
+    font-size:1rem;
+    background-color:rgb(236, 233, 233);
+    position:absolute;
+    color:black;
+    top:50px;
+    left:-105px;
+    display:none;
+  }
+
+.main-container{
+    height:auto;
+    width:20%;
+    border:2px solid red;
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color:white;
+    
+}
+
+
+.profile-container{
+    height:200px;
+    width:160px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.profile-style{
+    height:100%;
+    width:100%;
+    object-fit:fill;
+    border:2px solid pink;
+    border-radius:50%;
+   
+
+}
+.details-container{
+    margin-top:20px;
+    width:100%;
+    height:auto;
+    padding:0px 20px;
+    display:flex;
+    flex-direction: column;
+    align-items:start;
+    box-sizing: border-box;
+}
+.name-label,.mailid-label,.phone-label{
+    font-family:arial;
+    font-size:1rem;
+    margin-bottom:10px;
+}
+.actual-name,.actual-mailid,.actual-number{
+    font-family:arial;
+    font-size:1.2rem;
+    margin:0;
+}
+.hrline,.hrlines{
+ height:2px;
+ width:100%;
+ background-color:red;
+}
+.hrlines{
+    background-color:orange;
+    width:87%;
+    height:3px;
+    margin-top:20px;
+}
+.edit-button-container{
+    padding:10px;
+    width:100%;
+    display:flex;
+    justify-content:end;
+    height:30px;
+    align-items: center;
+}
+.edit-buttonss{
+    height:auto;
+    padding:5px 10px;
+    width:70px;
+    background-color:rgb(213, 75, 7);
+    color:white;
+    font-family:arial;
+    font-size:1.1rem;
+    border:none;
+    border-radius:5px;
+
+}
+@media only screen and (max-width: 749px){
+  .text-container{
+   font-size:0px;
+  }
+    .main-container{
+    width:94%;
+   
+}
+.profile-container{
+    height:190px;
+    width:190px;
+    box-sizing: border-box;
+   
+}
+}
+@media only screen and (min-width:750px)  and (max-width: 950px){
+    .main-container{
+    width:50%;
+}
+.profile-container{
+    height:200px;
+    width:200px;
+    box-sizing: border-box;
+   margin-bottom:20px;
+}
+}
+@media only screen and (min-width:951px) and (max-width:1800px){
+    .main-container{
+        width:30%;
+}
+.profile-container{
+    height:200px;
+    width:200px;
+    box-sizing: border-box;
+   margin-bottom:20px;
+}
+}
+@media only screen and (min-width:1801px) and (max-width:3000px){
+  .main-container{
+    width:30%;
+}
+.profile-container{
+height:220px;
+width:220px;
+box-sizing: border-box;
+margin-bottom:20px;
+}
+}
